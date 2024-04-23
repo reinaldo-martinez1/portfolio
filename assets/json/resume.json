@@ -57,7 +57,7 @@
       "location": "Mayagüez, PR",
       "url": "https://www.uprm.edu/",
       "area": "Computer Engineering",
-      "studyType": "BS",
+      "studyType": "Bachelor of Science",
       "startDate": "2019-08-01",
       "endDate": "2025-06-01"
     },
@@ -81,46 +81,10 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Microsoft Office Specialist Master",
+      "date": "2019-05-01",
+      "issuer": "Microsoft",
+      "url": "https://www.credly.com/users/reinaldo-j-martinez-morales"
     }
   ],
   "publications": [
