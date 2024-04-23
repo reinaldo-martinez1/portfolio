@@ -1,21 +1,28 @@
 {
   "basics": {
-    "name": "Reinaldo J. Martinez Morales",
-    "label": "Compuer Engineering Undergraduate Student",
+    "name": "Albert Einstein",
+    "label": "Scientist",
     "image": "",
-    "email": "reinaldo.martinez1@upr.edu",
-    "phone": "(787) 201-7407 ",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "HC 5 BOX 25444",
-      "postalCode": "PR 00627-9436",
-      "city": "Camuy",
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
       "countryCode": "US",
-      "region": "Puerto Rico"
-    }
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
   },
-  "experience": [
+  "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
@@ -144,7 +151,9 @@
   ],
   "languages": [
     {
-      "language": "English, Spanish"
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
     },
     {
       "language": "English",
