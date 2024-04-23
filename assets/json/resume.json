@@ -40,6 +40,15 @@
       "startDate": "2023-08-01",
       "endDate": "2024-06-01",
       "summary": "Create the necessary circuits to complete succesfully some tasks."
+    },
+    {
+      "organization": "National Society of Leadership and Success",
+      "location": "Mayagüez, PR",
+      "position": "Student President",
+      "url": "https://example.com",
+      "startDate": "2023-08-01",
+      "endDate": "2024-06-01",
+      "summary": "Lead the NSLS Chapter to improve the leadership skills of the members."
     }
   ],
   "education": [
