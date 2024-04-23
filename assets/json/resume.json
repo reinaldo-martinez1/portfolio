@@ -2,16 +2,18 @@
 {
   "basics": {
     "name": "Reinaldo J. Martinez Morales",
-    "label": "Computer Engineering Undergraduate Student",
+    "label": "Compuer Engineering Undergraduate Student",
     "image": "",
-    "email": "reinaldo.martinez12upr.edu",
-    "phone": "(787) 201-7407",
+    "email": "reinaldo.martinez1@upr.edu",
+    "phone": "(787) 201-7407 ",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "HC 5 BOX 25444",
-      "postalCode": "PR 00627-9436",
-      "city": "Camuy",
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
       "countryCode": "US",
-      "region": "Puerto Rico"
+      "region": "California"
     },
     "profiles": [
       {
