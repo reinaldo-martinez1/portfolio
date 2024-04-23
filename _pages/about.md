@@ -19,6 +19,8 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-¡Hola! Soy Reinaldo J. Martínez Morales. Aunque nací en el pueblo de Arecibo y soy Capitán de corazón, crecí en la Ciudad Romántica de Puerto Rico, Camuy. Actualmente me encuentro cursando mi quinto año en el programa de Ingeniería de Computadoras como estudiante subgraduado.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-En mi tiempo libre me encanta escuchar música, especialmente pop y rock de la década de 1980. También me gusta ver películas y series, pero me encanta buscar material extra, como por ejemplo el cómo fue grabada, o la inspiración/sucesos detrás de la película o serie. Otro pasatiempo que disfruto es leer, ya sean libros de fantasía, novelas o basados en hechos históricos. Por ahora estoy empezando en el mundo del "3D printing" así que tienen "tips" o sugerencias serán más que bienvenidas. Por último, me gusta mucho ver baloncesto, en específico las ligas de BSN, NBA y la serie mundial.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
