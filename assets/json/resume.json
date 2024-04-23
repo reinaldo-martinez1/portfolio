@@ -1,3 +1,4 @@
+
 {
   "basics": {
     "name": "Reinaldo J. Martinez Morales",
@@ -34,19 +35,11 @@
   "volunteer": [
     {
       "organization": "Moonbuggy Engineering Team",
-      "location": "UPRM",
-      "position": "Tasktool Department",
+      "location": "Mayagüez, Puerto Rico",
+      "position": "Tasktool Department Member",
       "startDate": "2023-08-01",
       "endDate": "2024-06-01",
-      "summary": “I am responsible for overseeing all the electronic components of the task tool to fulfill the designated tasks in the NASA Human Exploration Rover Challenge (HERC).”
-    }
-    {
-      "organization": "National Society of Leadership and Success",
-      "location": "UPRM",
-      "position": "Student President",
-      "startDate": "2023-08-01",
-      "endDate": "2024-06-01",
-      "summary": “As the Student President of the National Society of Leadership and Success, my role involves overseeing the executive board to plan and execute activities and events aligned with the organization’s mission and vision. Additionally, I am responsible for budget supervision to ensure financial stability.”
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
     }
   ],
   "education": [
@@ -68,7 +61,7 @@
       "date": "1921-11-01",
       "awarder": "Royal Swedish Academy of Sciences",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind."  
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [
