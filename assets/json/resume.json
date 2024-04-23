@@ -8,11 +8,11 @@
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "HC 5 BOX 25444",
+      "postalCode": "PR 00627-9436",
+      "city": "Camuy",
       "countryCode": "US",
-      "region": "California"
+      "region": "Puerto Rico"
     },
     "profiles": [
       {
@@ -22,7 +22,7 @@
       }
     ]
   },
-  "work": [
+  "experience": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
@@ -151,9 +151,7 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "English, Spanish"
     },
     {
       "language": "English",
