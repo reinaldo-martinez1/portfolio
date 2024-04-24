@@ -28,18 +28,23 @@ The results of the experiment indicated that for dimensionalities below 10, both
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Table-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Grafica-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The table at the left has the values of the time taken to execute the operations. The graph on the right compares the time execution of the two methods used.
 </div>
+
+The analysis of the results, coupled with insights from existing literature, attributed NumPy's superior performance to several factors: 
+1. NumPy arrays store homogenous data types contiguously in memory, optimizing data retrieval efficiency.
+2. NumPy's capability for parallel processing allows for simultaneous execution of tasks, leveraging computational power more efficiently.
+3. NumPy functions are implemented in compiled languages like C, C++, and Fortran, which inherently have shorter processing times compared to Python's interpreted nature.
+ 
+In conclusion, the experiment demonstrated the significance of utilizing external libraries like NumPy for computational efficiency, especially in handling large-scale data operations. The results underscored the importance of incorporating libraries into data-intensive tasks to achieve optimal performance.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
