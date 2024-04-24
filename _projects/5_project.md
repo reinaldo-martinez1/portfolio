@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Is AI an intelligence that is artificial?
+description: Debating whether or not AI can be considered intelligence that is artificial.
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: writing
 ---
 
 Every project has a beautiful feature showcase page.
