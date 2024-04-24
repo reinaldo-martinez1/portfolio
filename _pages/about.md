@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>ICOM</a>. Prof. Jose Riveros. April 24, 2024
+subtitle: <a href='#'>ICOM 5015 - Portfolio</a>. Prof. Jose Riveros. April 24, 2024
 
 profile:
   align: right
