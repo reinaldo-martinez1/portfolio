@@ -1,18 +1,16 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Search Algorithms
+description: Explore different approaches to solve a problem
+img: 
 redirect: https://unsplash.com
-importance: 3
-category: work
+importance: 2
+category: programming
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<H1>Purpose</H1>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The assignment focused on exploring fundamental concepts of search algorithms in Artificial Intelligence through the solution of two distinct problems.
 
     ---
     layout: page
@@ -23,47 +21,31 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/polygons.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The first problem involved finding the shortest path between two points on a plane containing convex polygonal obstacles. The key considerations included determining the number of states and paths, understanding the necessity of straight-line segments in the shortest path, defining an appropriate state space, and implementing necessary functions for the search problem. Various search algorithms were applied to solve this problem, with A* and Uniform Cost Search demonstrating superior performance.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/missionaries.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The second problem, famously known as the Missionaries and Cannibals problem, required transporting three missionaries and three cannibals across a river using a boat with specific constraints. The problem formulation involved defining states, actions, the initial state, the transition model, the goal test, and the path cost. Different search algorithms were employed to solve this problem, and all algorithms produced optimal solutions due to the nature of the problem.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/results-poly.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The results for the first problem showed that both A* and Uniform Cost Search algorithms were the most effective in identifying the optimal path from the initial state to the goal state. A* particularly excelled due to its informed nature, leveraging heuristic information to efficiently navigate the solution space. The results for the second problem showed that all algorithms produced optimal solutions with the same number of steps, reflecting the inherent characteristics of the problem.
+
+In summary, the detailed solutions for each problem demonstrated the effectiveness of various search algorithms in different problem domains. The selection of appropriate algorithms based on problem characteristics and constraints played a crucial role in achieving optimal solutions.
 
 {% raw %}
 
