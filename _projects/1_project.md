@@ -4,7 +4,7 @@ title: Is python fast or slow?
 description: Identify if python is fast or slow by comparing it to the numpy library.
 img: 
 importance: 1
-category: programming
+category: work
 related_publications: true
 ---
 
