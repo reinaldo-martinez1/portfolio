@@ -69,15 +69,15 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "General",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
+        "Teamwork Capability",
+        "Problem Solving",
+        "Basic Knowledge of MATLAB and AutoCAD",
+        "Proficiency in C++, C, Python, Java",
+        "Leadership",
         "Quantum Teleportation"
       ]
     }
