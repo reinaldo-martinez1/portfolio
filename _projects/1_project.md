@@ -21,22 +21,33 @@ Here is a small extraction of the code used to measure the impact of the utiliza
 
 ```python
 import timeit
-def dot_product(v1, v2): # Dot product
-return sum(v1[i] * v2[i] for i in range(len(v1)))
-def matrix_vector_product(matrix, vector): result = []
-for row in matrix: # Dot product
-result.append(dot_product(row, vector)) return result
-# Medium arrays
-v1_medium = [i for i in range(1, 50)]
-v2_medium = [i for i in range(1, 50)]
-matrix_medium = [[i for i in range(1, 50)] for _ in range(1, 50)]
+
+def dot_product(v1, v2):
+    # Dot product
+    return sum(v1[i] * v2[i] for i in range(len(v1)))
+
+def matrix_vector_product(matrix, vector):
+    result = []
+    for row in matrix:
+        # Dot product
+        result.append(dot_product(row, vector))
+    return result
+
+# Small arrays for demonstration
+v1_small = [i for i in range(1, 10)]
+v2_small = [i for i in range(1, 10)]
+matrix_small = [[i for i in range(1, 10)] for _ in range(1, 10)]
+
 # Timing the execution
 start_time = timeit.default_timer()
-product_v_medium = dot_product(v1_medium, v2_medium) product_mv_medium = matrix_vector_product(matrix_medium, v1_medium) end_time = timeit.default_timer()
-print(f"Dot product: {product_v_medium}")
-# For large arrays, printing the entire product may not be practical, so we'll limit the output print_limit = min(len(product_mv_medium), 5)
-print(f"Matrix-Vector dot product: {product_mv_medium[:print_limit]}")
-print(f"Execution time for medium arrays: {end_time-start_time} seconds")
+product_v_small = dot_product(v1_small, v2_small)
+product_mv_small = matrix_vector_product(matrix_small, v1_small)
+end_time = timeit.default_timer()
+
+# Printing the results
+print(f"Dot product: {product_v_small}")
+print(f"Matrix-Vector dot product: {product_mv_small}")
+print(f"Execution time for small arrays: {end_time - start_time} seconds")
 ```
 
 {% endraw %}
