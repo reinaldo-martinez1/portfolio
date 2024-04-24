@@ -14,8 +14,6 @@ The purpose of the assignment was to evaluate the impact of utilizing Python lib
 The hypothesis posited that utilizing NumPy would significantly enhance the efficiency of matrix operations compared to the iterative method due to NumPy's implementation in machine language (C language), potentially resulting in faster computation times.
  
 The experiment involved setting up various scenarios involving the multiplication of 1-D and 2-D arrays with different dimensionalities. For each scenario, the processing time was measured using the `timeit` library for both the iterative method and NumPy, and the results were compared.
- 
-The results of the experiment indicated that for dimensionalities below 10, both methods exhibited similar processing times, with a slight advantage towards NumPy. However, as the dimensionalities increased, NumPy showcased a substantial advantage over the iterative method, maintaining a consistent order of magnitude in processing times while the iterative method experienced significant increases.
 
 
 
@@ -37,6 +35,7 @@ The results of the experiment indicated that for dimensionalities below 10, both
 <div class="caption">
     The table at the left has the values of the time taken to execute the operations. The graph on the right compares the time execution of the two methods used.
 </div>
+The results of the experiment indicated that for dimensionalities below 10, both methods exhibited similar processing times, with a slight advantage towards NumPy. However, as the dimensionalities increased, NumPy showcased a substantial advantage over the iterative method, maintaining a consistent order of magnitude in processing times while the iterative method experienced significant increases.
 
 The analysis of the results, coupled with insights from existing literature, attributed NumPy's superior performance to several factors: 
 1. NumPy arrays store homogenous data types contiguously in memory, optimizing data retrieval efficiency.
