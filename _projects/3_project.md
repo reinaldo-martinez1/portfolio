@@ -3,8 +3,8 @@ layout: page
 title: Search Algorithms
 description: Explore different approaches to solve a problem
 img: 
-redirect: https://unsplash.com
-importance: 2
+redirect:
+importance: 1
 category: programming
 ---
 
