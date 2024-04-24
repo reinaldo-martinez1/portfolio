@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>ICOM5015-001D: Portfolio</a>. Prof. Jose Riveros. April 24, 2024
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -18,6 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! My name is Reinaldo J. Martínez Morales. Although I was born in the town of Arecibo and I am a Captain at heart, I grew up in the Romantic City of Puerto Rico, Camuy. Currently, I am in my fifth year of the Computer Engineering program as an undergraduate student.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-In my free time, I enjoy listening to music, especially pop and rock from the 1980s. I also like watching movies and series, but I particularly enjoy delving into extra material, such as behind-the-scenes footage, or the inspiration/events behind the movie or series. Another hobby I enjoy is reading, whether it's fantasy books, novels, or those based on historical events.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
