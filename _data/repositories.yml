@@ -1,9 +1,12 @@
 github_users:
+  - torvalds
   - alshedivat
-  - reinaldo-martinez1
 
 github_repos:
   - alshedivat/al-folio
-  -isPythonFastorSlow
-  -SearchAlgorithmsSearchAlgorithms
-  -8Queens-8Puzzle
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
