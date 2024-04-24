@@ -4,13 +4,11 @@ title: Is python fast or slow?
 description: Identify if python is fast or slow by comparing it to the numpy library.
 img: 
 importance: 1
-category: course_work
-related_publications: false
+category: programming
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Hola
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
