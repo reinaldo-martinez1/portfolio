@@ -1,17 +1,15 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: The 8 queens and puzzle problem
+description: Evaluate the performance of different search algorithms
 img:
 importance: 3
-category: fun
+category: programming
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<H1>Purpose</H1>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The assignment aimed to evaluate the performance of different local search algorithms in solving two classic AI problems: the 8-puzzle and the 8-queens problem. The primary objective was to measure the search cost and the percentage of solved problems for each algorithm across many instances. Four algorithms were evaluated: Hill Climbing (Steepest-Ascent and First-Choice variants), Hill Climbing with Random Restart, and Simulated Annealing.
 
     ---
     layout: page
@@ -22,25 +20,20 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/puzzle.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/queens.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+The 8-puzzle problem involves arranging tiles to a specified configuration in a 3x3 grid, aiming to achieve the goal state. On the other hand, the 8-queens problem requires placing eight queens on an 8x8 chessboard such that no two queens threaten each other. Hypotheses were formulated based on the theoretical background of the algorithms, anticipating that Simulated Annealing would outperform the others due to its probabilistic nature, while hill climbing variants might struggle due to their susceptibility to local optima.
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/results-8queens.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
 You can also put regular text between your rows of images.
@@ -59,10 +52,10 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The results confirmed the hypotheses, demonstrating that Simulated Annealing was the most effective algorithm for both problems, albeit with higher computational time. The hill climbing variants struggled due to their deterministic nature and vulnerability to local optima. The variability in results highlighted the importance of selecting the right algorithm for a given problem and conducting thorough testing to assess its effectiveness.
+ 
+In conclusion, the experiment emphasized the significance of algorithm selection and testing in problem-solving scenarios. While Simulated Annealing emerged as the most optimal choice for these problems, the trade-off between solution quality and computational time must be considered when choosing an algorithm.
+
 
 {% raw %}
 
