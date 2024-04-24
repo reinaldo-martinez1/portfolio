@@ -13,9 +13,9 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
 Hello! My name is Reinaldo J. Martínez Morales. Although I was born in the town of Arecibo and I am a Captain at heart, I grew up in the Romantic City of Puerto Rico, Camuy. Currently, I am in my fifth year of the Computer Engineering program as an undergraduate student.
