@@ -8,9 +8,8 @@ category: programming
 related_publications: true
 ---
 
-Hola
+The purpose of the assignment was to evaluate the impact of utilizing Python libraries, specifically focusing on NumPy, through an experiment comparing the efficiency of matrix multiplication operations using both iterative methods and NumPy functions. The primary goal was to assess the processing time difference between these two approaches and understand how it varies with the dimensionalities of the arrays.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -58,22 +57,28 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Here is a small extraction of the code used to measure the impact of the utilization of numpy and iterative methods:
 
 {% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```python
+import timeit
+def dot_product(v1, v2): # Dot product
+return sum(v1[i] * v2[i] for i in range(len(v1)))
+def matrix_vector_product(matrix, vector): result = []
+for row in matrix: # Dot product
+result.append(dot_product(row, vector)) return result
+# Medium arrays
+v1_medium = [i for i in range(1, 50)]
+v2_medium = [i for i in range(1, 50)]
+matrix_medium = [[i for i in range(1, 50)] for _ in range(1, 50)]
+# Timing the execution
+start_time = timeit.default_timer()
+product_v_medium = dot_product(v1_medium, v2_medium) product_mv_medium = matrix_vector_product(matrix_medium, v1_medium) end_time = timeit.default_timer()
+print(f"Dot product: {product_v_medium}")
+# For large arrays, printing the entire product may not be practical, so we'll limit the output print_limit = min(len(product_mv_medium), 5)
+print(f"Matrix-Vector dot product: {product_mv_medium[:print_limit]}")
+print(f"Execution time for medium arrays: {end_time-start_time} seconds")
 ```
 
 {% endraw %}
