@@ -5,12 +5,6 @@ github_users:
 
 github_repos:
   - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
   - isPythonFastorSlow
   - SearchAlgorithms
   - 8Queens-8Puzzle
