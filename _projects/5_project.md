@@ -2,7 +2,7 @@
 layout: page
 title: Personal Definition of Intelligence
 description: Giving a personal definition of what is intelligence.
-img: assets/img/1.jpg
+img: assets/img/intelligence.webp
 importance: 3
 category: writing
 ---
