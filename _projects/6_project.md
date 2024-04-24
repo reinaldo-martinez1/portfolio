@@ -2,7 +2,7 @@
 layout: page
 title: Is AI intelligence?
 description: An essay discussing whether or not AI is intelligence
-img:
+img: assets/img/ai.jpeg
 importance: 2
 category: writing
 ---
