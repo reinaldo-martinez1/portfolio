@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: Github Repositories
 description: Repositories for Programming Assignments
 nav: true
 nav_order: 4
 ---
 
-## GitHub Repositories
+<H3>Goals:</H3>
 
 {% if site.data.repositories.github_repos %}
 
