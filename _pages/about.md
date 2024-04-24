@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>ICOM 5015 - Portfolio</a>. Prof. Jose Riveros. April 24, 2024
 
