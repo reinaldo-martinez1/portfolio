@@ -1,10 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
   - reinaldo-martinez1
 
 github_repos:
-  - alshedivat/al-folio
-  - isPythonFastorSlow
-  - SearchAlgorithms
-  - 8Queens-8Puzzle
+  - reinaldo-martinez1/isPythonFastorSlow
+  - reinaldo-martinez1/SearchAlgorithms
+  - reinaldo-martinez1/8Queens-8Puzzle
