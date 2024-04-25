@@ -3,6 +3,7 @@ layout: page
 title: Is AI intelligence?
 description: An essay discussing whether or not AI is intelligence
 img: assets/img/ai.jpeg
+pdf: assets/pdf/Martinez Morales, Reinaldo J Essay on AI.pdf
 importance: 2
 category: writing
 ---
