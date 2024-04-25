@@ -7,7 +7,7 @@ importance: 2
 category: writing
 ---
 
-subtitle: <a href='assets/pdf/Martinez Morales, Reinaldo J Essay on AI.pdf'>Essay PDF</a>.
+subtitle: <a>href='assets/pdf/MartinezMoralesReinaldoJEssayonAI.pdf'>Essay PDF</a>.
 
 In my essay, I delve into the concept of intelligence and question whether artificial intelligence (AI) can truly be considered intelligence. I begin by discussing the historical evolution of AI and then explore various definitions and perspectives on intelligence from different fields. Through this exploration, I highlight the key attributes of intelligence such as problem-solving, adaptation, and understanding abstract concepts.
 
